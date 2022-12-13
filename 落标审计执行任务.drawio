@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T03:32:00.441Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="20.6.2" etag="aFgWVwy02WsK4KaSrR0T" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T08:36:12.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="20.6.2" etag="nQq0L9JjfoChsaCUAeVA" type="github">
   <diagram id="FWyG2BAMKEWw0-Zlmys5" name="第 1 页">
-    <mxGraphModel dx="768" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1085" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,7 @@
           <mxGeometry x="60" y="150" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-26" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="725" y="250" width="100" height="60" as="geometry" />
+          <mxGeometry x="765" y="250" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="83Rl3TBCxd0tM_nyBqNF-30" target="83Rl3TBCxd0tM_nyBqNF-34">
           <mxGeometry relative="1" as="geometry" />
@@ -51,71 +51,84 @@
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-30" value="foreach(落标配置列表）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="140" y="460" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="83Rl3TBCxd0tM_nyBqNF-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="83Rl3TBCxd0tM_nyBqNF-34" target="83Rl3TBCxd0tM_nyBqNF-36">
+        <mxCell id="83Rl3TBCxd0tM_nyBqNF-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="83Rl3TBCxd0tM_nyBqNF-34" target="83Rl3TBCxd0tM_nyBqNF-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-34" value="组装参数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="155" y="540" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="83Rl3TBCxd0tM_nyBqNF-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="83Rl3TBCxd0tM_nyBqNF-36" target="83Rl3TBCxd0tM_nyBqNF-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="83Rl3TBCxd0tM_nyBqNF-36" value="对比元数据数据项与数据标准数据项信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="170" y="615.25" width="100" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="83Rl3TBCxd0tM_nyBqNF-39" target="83Rl3TBCxd0tM_nyBqNF-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-39" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;" vertex="1" parent="1">
-          <mxGeometry x="480" y="561" width="590" height="159" as="geometry" />
+          <mxGeometry x="520" y="740.5" width="590" height="159" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="83Rl3TBCxd0tM_nyBqNF-40" target="83Rl3TBCxd0tM_nyBqNF-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-40" value="jdbc 流式读取元数据内容" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="500" y="620" width="90" height="50" as="geometry" />
+          <mxGeometry x="539" y="800.5" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="83Rl3TBCxd0tM_nyBqNF-41" target="83Rl3TBCxd0tM_nyBqNF-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-41" value="逐条对比数据内容与元数据标准配置" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="610" y="622.5" width="100" height="45" as="geometry" />
+          <mxGeometry x="649" y="803" width="100" height="45" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="83Rl3TBCxd0tM_nyBqNF-43" target="83Rl3TBCxd0tM_nyBqNF-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-43" value="对比结果存入内存实体集" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="730" y="620.25" width="100" height="47.5" as="geometry" />
+          <mxGeometry x="769" y="800.75" width="100" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="83Rl3TBCxd0tM_nyBqNF-49" target="83Rl3TBCxd0tM_nyBqNF-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-49" value="组装异步任务" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="320" y="615.25" width="105" height="60" as="geometry" />
+          <mxGeometry x="390" y="795.5" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-54" value="线程池执行任务" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="570" width="110" height="30" as="geometry" />
+          <mxGeometry x="540" y="750.5" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-55" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="990" y="614" width="60" height="60" as="geometry" />
+          <mxGeometry x="1029" y="794.5" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="83Rl3TBCxd0tM_nyBqNF-57" target="83Rl3TBCxd0tM_nyBqNF-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-57" value="等待所有线程执行结束统计正常审计的落标数" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;" vertex="1" parent="1">
-          <mxGeometry x="740" y="430" width="70" height="70" as="geometry" />
+          <mxGeometry x="780" y="430" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="83Rl3TBCxd0tM_nyBqNF-60" target="83Rl3TBCxd0tM_nyBqNF-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-60" value="将统计结果写入日志" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="725" y="350" width="100" height="40" as="geometry" />
+          <mxGeometry x="765" y="350" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="83Rl3TBCxd0tM_nyBqNF-61" target="83Rl3TBCxd0tM_nyBqNF-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="83Rl3TBCxd0tM_nyBqNF-61" value="批量保存到数据库" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="860" y="624.25" width="100" height="40" as="geometry" />
+          <mxGeometry x="899" y="804.75" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="83Rl3TBCxd0tM_nyBqNF-72" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="83Rl3TBCxd0tM_nyBqNF-70" target="83Rl3TBCxd0tM_nyBqNF-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="83Rl3TBCxd0tM_nyBqNF-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="83Rl3TBCxd0tM_nyBqNF-70" target="83Rl3TBCxd0tM_nyBqNF-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="826" />
+              <mxPoint x="80" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83Rl3TBCxd0tM_nyBqNF-75" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="83Rl3TBCxd0tM_nyBqNF-74">
+          <mxGeometry x="-0.1562" y="-4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83Rl3TBCxd0tM_nyBqNF-70" value="判断数据标准版本号和本地版本号一致&lt;br&gt;且元数据数据最后更新时间早于等于本地数据更新时间" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="145" y="760.5" width="150" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
