@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T06:11:26.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="20.6.2" etag="6Po2k0nDkjxRzMNG2K7s" type="github"><diagram id="JzBo0p6fTr7ukWL5NNC2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-13T06:20:40.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="20.6.2" etag="kCay3z4W5cecpVma8tpF" type="github">
+  <diagram id="JEgZGxNz-CLaNs-rRkUG" name="第 1 页">
+    <mxGraphModel dx="768" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RsTXqCnpjIWFNA9EpPO4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RsTXqCnpjIWFNA9EpPO4-1" target="RsTXqCnpjIWFNA9EpPO4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsTXqCnpjIWFNA9EpPO4-1" value="输入主数据名称" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RsTXqCnpjIWFNA9EpPO4-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RsTXqCnpjIWFNA9EpPO4-2" target="RsTXqCnpjIWFNA9EpPO4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsTXqCnpjIWFNA9EpPO4-2" value="查询主数据应用列表" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="150" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RsTXqCnpjIWFNA9EpPO4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RsTXqCnpjIWFNA9EpPO4-3" target="RsTXqCnpjIWFNA9EpPO4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsTXqCnpjIWFNA9EpPO4-3" value="查询审计结果表" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RsTXqCnpjIWFNA9EpPO4-8" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RsTXqCnpjIWFNA9EpPO4-5" target="RsTXqCnpjIWFNA9EpPO4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsTXqCnpjIWFNA9EpPO4-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RsTXqCnpjIWFNA9EpPO4-5" target="RsTXqCnpjIWFNA9EpPO4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsTXqCnpjIWFNA9EpPO4-5" value="是否有最新审计结果" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="340" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RsTXqCnpjIWFNA9EpPO4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RsTXqCnpjIWFNA9EpPO4-7" target="RsTXqCnpjIWFNA9EpPO4-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RsTXqCnpjIWFNA9EpPO4-7" value="审计结果、 审计时间都设置为空" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RsTXqCnpjIWFNA9EpPO4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RsTXqCnpjIWFNA9EpPO4-9" target="RsTXqCnpjIWFNA9EpPO4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsTXqCnpjIWFNA9EpPO4-9" value="根据结果填充审计结果、审计时间、异常数量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="185" y="460" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RsTXqCnpjIWFNA9EpPO4-11" value="返回前端界面" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="580" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
