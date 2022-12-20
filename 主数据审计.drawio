@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-20T15:30:05.974Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="MZhMqX4gp0fxTQgCdCoZ" version="20.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-20T15:30:26.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="4ho7-Ni1uTQjLdMhVfPF" version="20.7.2" type="github">
   <diagram id="cEIReczgMlnvqsBptSSo" name="第 1 页">
     <mxGraphModel dx="2181" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -173,7 +173,7 @@
           <mxGeometry x="120" y="959" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PMTQuIxZWdmDZA-RCzVE-1" value="t_audit_manage_main_data_agg_detail_xxxxx" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="85" y="919.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="30" y="919.5" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
