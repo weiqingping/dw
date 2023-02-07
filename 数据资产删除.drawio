@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T05:19:07.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="20.8.5" etag="9bhxTYAzfp2jJJZeyRF2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T05:22:04.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="20.8.5" etag="Ao3eyM2dJS_XHwytnLT1" type="github">
   <diagram id="5L5s5uM2wJenfJ0nbEnf" name="第 1 页">
     <mxGraphModel dx="1354" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,19 +51,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Y9AQ3P6Cmwsa3wJ9Wi3x-16" value="删除配置信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="590" y="320" width="100" height="60" as="geometry" />
+          <mxGeometry x="640" y="320" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y9AQ3P6Cmwsa3wJ9Wi3x-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y9AQ3P6Cmwsa3wJ9Wi3x-17" target="Y9AQ3P6Cmwsa3wJ9Wi3x-18">
+        <mxCell id="Y9AQ3P6Cmwsa3wJ9Wi3x-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y9AQ3P6Cmwsa3wJ9Wi3x-17" target="Y9AQ3P6Cmwsa3wJ9Wi3x-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Y9AQ3P6Cmwsa3wJ9Wi3x-17" value="删除数据项信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="585" y="480" width="110" height="60" as="geometry" />
+          <mxGeometry x="635" y="480" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y9AQ3P6Cmwsa3wJ9Wi3x-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Y9AQ3P6Cmwsa3wJ9Wi3x-18" target="Y9AQ3P6Cmwsa3wJ9Wi3x-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Y9AQ3P6Cmwsa3wJ9Wi3x-18" value="删除任务" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="400" y="480" width="100" height="60" as="geometry" />
+          <mxGeometry x="340" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9AQ3P6Cmwsa3wJ9Wi3x-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y9AQ3P6Cmwsa3wJ9Wi3x-25" target="Y9AQ3P6Cmwsa3wJ9Wi3x-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9AQ3P6Cmwsa3wJ9Wi3x-25" value="删除数据库结果文件" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="480" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
