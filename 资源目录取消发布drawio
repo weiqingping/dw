@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T06:29:34.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="20.8.5" etag="EUPNwv2ipUyA-i830DUZ" type="github"><diagram id="j_KsKw3T5QRBl5C97Sr7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-07T06:31:37.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="20.8.5" etag="SEB5xWCaVGkEKkSdzc5w" type="github">
+  <diagram id="xY_Y7XkqbLvw6rnoCGBw" name="第 1 页">
+    <mxGraphModel dx="1354" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NhSig3_Qsg09ORalvTY8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NhSig3_Qsg09ORalvTY8-1" target="NhSig3_Qsg09ORalvTY8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NhSig3_Qsg09ORalvTY8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NhSig3_Qsg09ORalvTY8-1" target="NhSig3_Qsg09ORalvTY8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NhSig3_Qsg09ORalvTY8-9" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NhSig3_Qsg09ORalvTY8-8">
+          <mxGeometry x="0.1865" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NhSig3_Qsg09ORalvTY8-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NhSig3_Qsg09ORalvTY8-6" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NhSig3_Qsg09ORalvTY8-2" target="NhSig3_Qsg09ORalvTY8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NhSig3_Qsg09ORalvTY8-2" value="资源是否为已发布" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NhSig3_Qsg09ORalvTY8-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NhSig3_Qsg09ORalvTY8-3" target="NhSig3_Qsg09ORalvTY8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NhSig3_Qsg09ORalvTY8-3" value="修改资源状态为取消发布" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NhSig3_Qsg09ORalvTY8-4" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="305" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
