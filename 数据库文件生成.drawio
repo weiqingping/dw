@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T03:45:24.837Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="20.8.17" etag="4n1zgDLesXtlZjIzBkh-" type="github"><diagram name="第 1 页" id="0Ut59pqPdqFjTad1EGn3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-09T04:55:04.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="mOaQKY36u8NiZIYCzDS0" version="20.8.17" type="github">
+  <diagram name="第 1 页" id="0Ut59pqPdqFjTad1EGn3">
+    <mxGraphModel dx="1354" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LquTUFVLOSyET14QFLIf-31" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="430" y="270" width="240" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LquTUFVLOSyET14QFLIf-1" target="LquTUFVLOSyET14QFLIf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LquTUFVLOSyET14QFLIf-2" target="LquTUFVLOSyET14QFLIf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-2" value="查询数据库资源目录的数据源和数据项信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="110" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LquTUFVLOSyET14QFLIf-3" target="LquTUFVLOSyET14QFLIf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-3" value="流式查询元数据数据内容" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LquTUFVLOSyET14QFLIf-9" target="LquTUFVLOSyET14QFLIf-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LquTUFVLOSyET14QFLIf-9" target="LquTUFVLOSyET14QFLIf-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-9" value="分文件类型多线程并发执行" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="300" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LquTUFVLOSyET14QFLIf-13" target="LquTUFVLOSyET14QFLIf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-13" value="压缩文件" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="410" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LquTUFVLOSyET14QFLIf-15" target="LquTUFVLOSyET14QFLIf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-15" value="上传至文件服务器" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-16" value="删除本本地临时文件" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="640" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LquTUFVLOSyET14QFLIf-17" target="LquTUFVLOSyET14QFLIf-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LquTUFVLOSyET14QFLIf-17" target="LquTUFVLOSyET14QFLIf-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-17" value="等待所有文件类型处理结束" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;" vertex="1" parent="1">
+          <mxGeometry x="205" y="515" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LquTUFVLOSyET14QFLIf-18" target="LquTUFVLOSyET14QFLIf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-18" value="每种文件类型按照一定的数据量生成多个文件" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-27" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="640" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LquTUFVLOSyET14QFLIf-33" value="文件生成线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
