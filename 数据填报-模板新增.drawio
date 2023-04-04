@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T06:17:30.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="20.8.18" etag="GYg1m4ZHR9x1pvTywavv" type="github"><diagram name="第 1 页" id="hdn74cBulRozQuIHb2mr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-04T06:51:35.091Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="LPvRcrla0QEiIwdsy1t2" version="20.8.18" type="github">
+  <diagram name="第 1 页" id="hdn74cBulRozQuIHb2mr">
+    <mxGraphModel dx="1354" dy="1734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r-acBwzVyTjIPX8Zhjvq-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r-acBwzVyTjIPX8Zhjvq-2" value="参数校验" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r-acBwzVyTjIPX8Zhjvq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-acBwzVyTjIPX8Zhjvq-3" target="r-acBwzVyTjIPX8Zhjvq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-acBwzVyTjIPX8Zhjvq-3" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="-1140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r-acBwzVyTjIPX8Zhjvq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-acBwzVyTjIPX8Zhjvq-4" target="r-acBwzVyTjIPX8Zhjvq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-acBwzVyTjIPX8Zhjvq-4" value="参数校验" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="364" y="-1050" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r-acBwzVyTjIPX8Zhjvq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-acBwzVyTjIPX8Zhjvq-5" target="r-acBwzVyTjIPX8Zhjvq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-acBwzVyTjIPX8Zhjvq-5" value="表单名称重复性校验" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="364" y="-960" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r-acBwzVyTjIPX8Zhjvq-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-acBwzVyTjIPX8Zhjvq-6" target="r-acBwzVyTjIPX8Zhjvq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-acBwzVyTjIPX8Zhjvq-6" value="校验数据项参数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="364" y="-870" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r-acBwzVyTjIPX8Zhjvq-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r-acBwzVyTjIPX8Zhjvq-7" target="r-acBwzVyTjIPX8Zhjvq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-acBwzVyTjIPX8Zhjvq-7" value="批量提交模板&lt;br&gt;基本信息与数据项信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="364" y="-780" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r-acBwzVyTjIPX8Zhjvq-8" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="-690" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
