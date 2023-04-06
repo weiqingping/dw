@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T03:27:00.278Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="21.1.4" etag="dA33SLwS-MdrJly2L89u" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T05:14:06.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="po6p5vAHUU7eS7wYgERM" version="21.1.4" type="github">
   <diagram name="第 1 页" id="-5orxdLXSkiKhEB8e2zm">
-    <mxGraphModel>
+    <mxGraphModel dx="1354" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="q1iPsyQdEHzeLCAL4fx1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1iPsyQdEHzeLCAL4fx1-1" target="q1iPsyQdEHzeLCAL4fx1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1iPsyQdEHzeLCAL4fx1-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q1iPsyQdEHzeLCAL4fx1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1iPsyQdEHzeLCAL4fx1-2" target="q1iPsyQdEHzeLCAL4fx1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1iPsyQdEHzeLCAL4fx1-2" value="申请单状态校验&lt;br&gt;（审批中的或作废的不能填报）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="52.5" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="q1iPsyQdEHzeLCAL4fx1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1iPsyQdEHzeLCAL4fx1-4" target="q1iPsyQdEHzeLCAL4fx1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1iPsyQdEHzeLCAL4fx1-4" value="填报时间判断&lt;br&gt;（未到填报时间或逾期的不能填报）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="410" y="52.5" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="q1iPsyQdEHzeLCAL4fx1-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1iPsyQdEHzeLCAL4fx1-6" target="q1iPsyQdEHzeLCAL4fx1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1iPsyQdEHzeLCAL4fx1-6" value="数据校验" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="670" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q1iPsyQdEHzeLCAL4fx1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1iPsyQdEHzeLCAL4fx1-8" target="q1iPsyQdEHzeLCAL4fx1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1iPsyQdEHzeLCAL4fx1-8" value="数据存入临时表" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="670" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q1iPsyQdEHzeLCAL4fx1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="q1iPsyQdEHzeLCAL4fx1-9" target="q1iPsyQdEHzeLCAL4fx1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1iPsyQdEHzeLCAL4fx1-9" value="变更申请单状态为:已提交" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="175" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q1iPsyQdEHzeLCAL4fx1-10" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
