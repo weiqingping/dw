@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T01:33:17.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="XkTuRbSyMRJDQHTe7-WS" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-07T03:40:26.574Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="eXVUvaR2gmLAqJ7T8Rdy" version="21.1.4" type="github">
   <diagram name="第 1 页" id="wow9cDlXcdEDVh3_X0Mi">
     <mxGraphModel dx="1354" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,40 +14,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="br49doQct2eO1nxo8NBt-2" value="校验状态：&lt;br&gt;已发布不能发布" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="180" y="50" width="100" height="60" as="geometry" />
+          <mxGeometry x="210" y="50" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="br49doQct2eO1nxo8NBt-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="br49doQct2eO1nxo8NBt-3" target="br49doQct2eO1nxo8NBt-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="br49doQct2eO1nxo8NBt-3" value="校验是否已排版：&lt;br&gt;未排版不能发布" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="354" y="50" width="100" height="60" as="geometry" />
+          <mxGeometry x="400" y="50" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="br49doQct2eO1nxo8NBt-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="br49doQct2eO1nxo8NBt-7" target="br49doQct2eO1nxo8NBt-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="br49doQct2eO1nxo8NBt-7" value="校验模板是否配置了填报人：&lt;br&gt;未填报不能发布" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="520" y="52.5" width="100" height="55" as="geometry" />
+          <mxGeometry x="610" y="52.5" width="100" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="br49doQct2eO1nxo8NBt-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="br49doQct2eO1nxo8NBt-9" target="br49doQct2eO1nxo8NBt-10" edge="1">
+        <mxCell id="IEne8sYD3147kVAs7zPN-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="br49doQct2eO1nxo8NBt-9" target="br49doQct2eO1nxo8NBt-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="br49doQct2eO1nxo8NBt-9" value="每个模板为它的&lt;br&gt;所有填报人派单" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="520" y="200" width="100" height="70" as="geometry" />
+          <mxGeometry x="610" y="202.5" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="DtPXgoqyRYj8btADxqJW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="br49doQct2eO1nxo8NBt-10" target="DtPXgoqyRYj8btADxqJW-2">
+        <mxCell id="IEne8sYD3147kVAs7zPN-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="br49doQct2eO1nxo8NBt-10" target="IEne8sYD3147kVAs7zPN-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="br49doQct2eO1nxo8NBt-10" value="修改模板状态为已发布" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="354" y="197.5" width="100" height="75" as="geometry" />
+          <mxGeometry x="460" y="200" width="100" height="75" as="geometry" />
         </mxCell>
         <mxCell id="br49doQct2eO1nxo8NBt-14" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="20" y="205" width="100" height="60" as="geometry" />
+          <mxGeometry x="20" y="207.5" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DtPXgoqyRYj8btADxqJW-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DtPXgoqyRYj8btADxqJW-2" target="br49doQct2eO1nxo8NBt-14">
+        <mxCell id="DtPXgoqyRYj8btADxqJW-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DtPXgoqyRYj8btADxqJW-2" target="br49doQct2eO1nxo8NBt-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DtPXgoqyRYj8btADxqJW-2" value="异步发送邮件或短信" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="180" y="205" width="100" height="60" as="geometry" />
+        <mxCell id="DtPXgoqyRYj8btADxqJW-2" value="异步发送邮件或短信" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="170" y="207.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IEne8sYD3147kVAs7zPN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IEne8sYD3147kVAs7zPN-1" target="DtPXgoqyRYj8btADxqJW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEne8sYD3147kVAs7zPN-1" value="添加填报数据分表" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="202.5" width="86.5" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
