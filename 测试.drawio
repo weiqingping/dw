@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T02:35:11.839Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="JeeosfnofH-bxkJVtq6w" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-02T02:36:29.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ZZv3MbVxoalzaEU79OY7" version="21.6.5" type="github">
   <diagram name="第 1 页" id="waPbzT5Kn9d_hso1ZF90">
     <mxGraphModel dx="1354" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,6 +89,11 @@
         </mxCell>
         <mxCell id="bqZYF-H3jOPNfj81gdSD-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bqZYF-H3jOPNfj81gdSD-43" target="bqZYF-H3jOPNfj81gdSD-49">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bqZYF-H3jOPNfj81gdSD-92" value="推送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bqZYF-H3jOPNfj81gdSD-50">
+          <mxGeometry x="-0.2066" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="bqZYF-H3jOPNfj81gdSD-43" value="等待所有分片任务执行完毕,查询所有执行结果" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="348" y="720" width="100" height="60" as="geometry" />
