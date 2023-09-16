@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T13:23:25.479Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="S2WM_UlAYvK8e4QYvVos" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T13:42:54.571Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="1yioiQMZfvGMRpKqmLJW" version="21.7.5" type="github">
   <diagram name="第 1 页" id="BnDms9rOA7NVd8nO5CcU">
     <mxGraphModel dx="1941" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -134,7 +134,7 @@
           <mxGeometry x="-90" y="420" width="200" height="220" as="geometry" />
         </mxCell>
         <mxCell id="_vu7YtRVAiC6jXEAQ4cZ-57" value="Feign微服务间调用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-          <mxGeometry x="-75" y="433" width="75" height="40" as="geometry" />
+          <mxGeometry x="-80" y="433" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_vu7YtRVAiC6jXEAQ4cZ-58" value="hystrixr熔断限流" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="-80" y="490" width="80" height="40" as="geometry" />
@@ -334,7 +334,7 @@
           <mxGeometry x="730" y="946" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="L7AqRPQMEXZPQg-u6DkQ-1" value="ribbon负载" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
-          <mxGeometry x="10" y="433" width="80" height="40" as="geometry" />
+          <mxGeometry x="16" y="433" width="84" height="40" as="geometry" />
         </mxCell>
         <mxCell id="L7AqRPQMEXZPQg-u6DkQ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-90" y="655" width="200" height="385" as="geometry" />
