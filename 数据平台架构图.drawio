@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T08:48:39.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="cZ8zUx-ChEtA2Rh5iBcq" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-17T08:51:23.952Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="C5tGw8MILQlP9vIm1IeL" version="21.7.5" type="github">
   <diagram name="第 1 页" id="BnDms9rOA7NVd8nO5CcU">
     <mxGraphModel dx="1941" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -163,7 +163,7 @@
         <mxCell id="_vu7YtRVAiC6jXEAQ4cZ-74" value="elasticsearch" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticsearch_service;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="732" y="629" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="_vu7YtRVAiC6jXEAQ4cZ-78" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="_vu7YtRVAiC6jXEAQ4cZ-78" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="712" y="421" width="188" height="87" as="geometry" />
         </mxCell>
         <mxCell id="_vu7YtRVAiC6jXEAQ4cZ-81" value="&lt;b&gt;服务注册发现与统一配置&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
