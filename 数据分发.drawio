@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-28T10:17:49.363Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gV8IrDVxRB7idqdYJlMS" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-29T03:15:30.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TC9yx4HNw-mmP1QURFEx" version="22.1.15" type="github">
   <diagram name="第 1 页" id="GGwPKFl1TLAgvb3d4rCY">
     <mxGraphModel dx="1114" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -96,8 +96,18 @@
         <mxCell id="6pBXuck8lUhxlwsbu6sX-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6pBXuck8lUhxlwsbu6sX-29" target="6pBXuck8lUhxlwsbu6sX-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="6pBXuck8lUhxlwsbu6sX-48" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6pBXuck8lUhxlwsbu6sX-34">
+          <mxGeometry x="0.005" y="-4" relative="1" as="geometry">
+            <mxPoint x="2" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6pBXuck8lUhxlwsbu6sX-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6pBXuck8lUhxlwsbu6sX-29" target="6pBXuck8lUhxlwsbu6sX-31">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6pBXuck8lUhxlwsbu6sX-50" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6pBXuck8lUhxlwsbu6sX-39">
+          <mxGeometry x="0.1401" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6pBXuck8lUhxlwsbu6sX-29" value="本地分发处理是否已经完成" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="387.5" y="880" width="95" height="70" as="geometry" />
@@ -115,7 +125,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6pBXuck8lUhxlwsbu6sX-33" value="等待两秒" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="6pBXuck8lUhxlwsbu6sX-33" value="异步等待两秒" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="269" y="892.5" width="80" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="6pBXuck8lUhxlwsbu6sX-41" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
