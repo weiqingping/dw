@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-29T03:15:30.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TC9yx4HNw-mmP1QURFEx" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-29T03:16:42.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KvySV9xRGI--2Jk4sPBG" version="22.1.15" type="github">
   <diagram name="第 1 页" id="GGwPKFl1TLAgvb3d4rCY">
     <mxGraphModel dx="1114" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,13 +54,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6pBXuck8lUhxlwsbu6sX-16" value="同步返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="6pBXuck8lUhxlwsbu6sX-2">
+        <mxCell id="6pBXuck8lUhxlwsbu6sX-16" value="每次调用同步返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="6pBXuck8lUhxlwsbu6sX-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="610" y="380" as="sourcePoint" />
             <mxPoint x="530" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6pBXuck8lUhxlwsbu6sX-18" value="异步分发处理结果回调（失败 成功）" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" target="6pBXuck8lUhxlwsbu6sX-2">
+        <mxCell id="6pBXuck8lUhxlwsbu6sX-18" value="当批次所有数据接收完成后异步分发处理结果回调（失败 成功）" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" target="6pBXuck8lUhxlwsbu6sX-2">
           <mxGeometry x="-0.0015" width="60" relative="1" as="geometry">
             <mxPoint x="620" y="430" as="sourcePoint" />
             <mxPoint x="680" y="430" as="targetPoint" />
