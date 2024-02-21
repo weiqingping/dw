@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T06:42:47.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="RGNAVsvLIDYzywFIDK2a" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T06:44:26.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="N359HGzEMvdmNrtXBp1A" version="23.1.5" type="github">
   <diagram name="第 1 页" id="1Jv4I5vn7Zk7EEgFjA-0">
     <mxGraphModel dx="1114" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,7 +140,7 @@
         <mxCell id="ILYdvK3medi0fULYivzU-69" value="删除临时索引" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ILYdvK3medi0fULYivzU-71" value="清空 es临时索引数据（if 存在临时索引）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ILYdvK3medi0fULYivzU-71" value="如果存在es 临时索引则删除es临时索引" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
