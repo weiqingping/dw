@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T06:10:29.203Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="eBvzaJuAUae2eQacB5z9" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T06:21:39.831Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="F90_yJaYMWauaPjq4Rwh" version="23.1.5" type="github">
   <diagram name="第 1 页" id="1Jv4I5vn7Zk7EEgFjA-0">
     <mxGraphModel dx="1114" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,7 +77,7 @@
         <mxCell id="ILYdvK3medi0fULYivzU-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILYdvK3medi0fULYivzU-41" target="ILYdvK3medi0fULYivzU-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ILYdvK3medi0fULYivzU-41" value="将 主数据表数据同步到es" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ILYdvK3medi0fULYivzU-41" value="将 主数据表数据全量同步到es" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ILYdvK3medi0fULYivzU-44" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -116,7 +116,7 @@
         <mxCell id="ILYdvK3medi0fULYivzU-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILYdvK3medi0fULYivzU-56" target="ILYdvK3medi0fULYivzU-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ILYdvK3medi0fULYivzU-56" value="将es中不合格数据清楚" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ILYdvK3medi0fULYivzU-56" value="将es中不合格数据清除" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ILYdvK3medi0fULYivzU-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILYdvK3medi0fULYivzU-57" target="ILYdvK3medi0fULYivzU-63">
