@@ -1,9 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T02:39:48.495Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.5" etag="LB5KHG41LT2K0iSV6b50" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T03:47:28.143Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Ur6X3DS9m5SgI9D-OBz4" version="23.1.5" type="github">
   <diagram name="第 1 页" id="1Jv4I5vn7Zk7EEgFjA-0">
-    <mxGraphModel>
+    <mxGraphModel dx="1114" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ILYdvK3medi0fULYivzU-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILYdvK3medi0fULYivzU-1" target="ILYdvK3medi0fULYivzU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILYdvK3medi0fULYivzU-2" target="ILYdvK3medi0fULYivzU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-15" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ILYdvK3medi0fULYivzU-14">
+          <mxGeometry x="-0.3919" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILYdvK3medi0fULYivzU-2" target="ILYdvK3medi0fULYivzU-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-38" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ILYdvK3medi0fULYivzU-37">
+          <mxGeometry x="-0.3749" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-2" value="是否需要审核" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILYdvK3medi0fULYivzU-10" target="ILYdvK3medi0fULYivzU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-10" value="数据处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-13" value="一键添加，将es临时索引数据同步到主数据临时表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILYdvK3medi0fULYivzU-19" target="ILYdvK3medi0fULYivzU-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-19" value="调用fegin接口将es临时索引数据同步到主数据表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILYdvK3medi0fULYivzU-21" target="ILYdvK3medi0fULYivzU-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-21" value="调用fegin触发数据分发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="675" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILYdvK3medi0fULYivzU-23" target="ILYdvK3medi0fULYivzU-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-23" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILYdvK3medi0fULYivzU-24" target="ILYdvK3medi0fULYivzU-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-24" value="存入es临时索引" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILYdvK3medi0fULYivzU-26" target="ILYdvK3medi0fULYivzU-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-26" value="es临时索引数据去重" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILYdvK3medi0fULYivzU-28" target="ILYdvK3medi0fULYivzU-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-28" value="设置默认密级" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILYdvK3medi0fULYivzU-34" target="ILYdvK3medi0fULYivzU-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-34" value="批量赋码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILYdvK3medi0fULYivzU-41" target="ILYdvK3medi0fULYivzU-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-41" value="将 主数据表数据同步到es" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-44" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="770" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ILYdvK3medi0fULYivzU-46" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
